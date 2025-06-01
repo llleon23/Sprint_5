@@ -14,6 +14,8 @@ class Locators:
     REG_EMAIL = (By.XPATH, "//label[text()='Email']/following-sibling::*")  # поле Email
     REG_PASSWORD = (By.XPATH, "//input[@name='Пароль']")  # поле Пароль
     REG_BUTTON = (By.XPATH, "//button[text()='Зарегистрироваться']")  # кнопка Зарегистрироваться
+    REG_TEXT_NO = (By.XPATH, "//p[text()='Некорректный пароль']") # текст "Некорректный пароль" при вводе невалидного пароля
+    REG_TEXT_USER = (By.XPATH, "//p[text()='Такой пользователь уже существует']") # текст 'Такой пользователь уже существует' при вводе данных зареганного пользователя
 
     # Страница "Восстановление пароля" https://stellarburgers.nomoreparties.site/forgot-password
     FOG_EMAIL = (By.XPATH, "//label[text()='Email']/following-sibling::*")  # поле Email
