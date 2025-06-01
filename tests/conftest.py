@@ -5,8 +5,7 @@ from selenium.webdriver.chrome.service import Service
 from curl import *
 from locators import Locators
 from data import Credentials
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.wait import WebDriverWait
+
 
 
 

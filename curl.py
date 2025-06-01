@@ -7,5 +7,8 @@ reg_site = 'https://stellarburgers.nomoreparties.site/register'
 # личный кабинет(конструктор)
 main_site = 'https://stellarburgers.nomoreparties.site/'
 
-#страница профиля (выход)
+# страница профиля (выход)
 profile_site = 'https://stellarburgers.nomoreparties.site/account/profile'
+
+# страница восстановления пароля
+forgot_password_site = 'https://stellarburgers.nomoreparties.site/forgot-password'
